@@ -1,0 +1,46 @@
+
+
+body {
+  background: #01ef5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+  input[type='submit']{
+    background-color: rgb(47, 179, 255);
+    padding: 0px,20px,0px,20px;
+    margin: 10px;
+    cursor: pointer;
+  
+    
+  }
+  button{
+    background-color: rgb(95, 9, 9);
+  color: antiquewhite;
+  padding: 5px 10px;
+  border-radius: 2px;
+  border: none; /* Remove button border if not needed */
+  cursor: pointer;
+  margin: auto;
+  gap: 10px;
+  /* display: inline-flex; */
+  flex-direction: column;
+  align-items: center;
+  }
+  .card{
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 50px;
+    border: 1px solid black;
+  }
+  .card-body{
+    width: 300px; /* Decrease box size */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center text within the container */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; 
+  }
